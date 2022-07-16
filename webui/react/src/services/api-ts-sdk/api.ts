@@ -5044,6 +5044,12 @@ export interface V1QueryFilters {
      * @memberof V1QueryFilters
      */
     searcher?: string;
+    /**
+     * 
+     * @type {Array<number>}
+     * @memberof V1QueryFilters
+     */
+    userIds?: Array<number>;
 }
 
 /**
